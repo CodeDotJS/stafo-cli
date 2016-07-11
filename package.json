@@ -1,0 +1,51 @@
+{
+  "name": "stafo-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to count total stars and forks on a github repository",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/stafo-cli.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "bin": {
+    "stafo": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "git",
+    "github",
+    "stars",
+    "forks",
+    "fetch",
+    "scrap",
+    "repository",
+    "count"
+  ],
+  "dependencies": {
+    "stafo": "^1.0.0",
+    "chalk": "^1.1.3",
+    "update-notifier": "^1.0.2",
+    "ora": "^0.2.1",
+    "log-update": "1.0.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/stafo-cli/issues"
+  },
+  "homepage": "https://github.com/codedotjs/stafo-cli#readme",
+  "main": "cli.js"
+}
