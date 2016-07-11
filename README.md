@@ -9,11 +9,11 @@
 - `Ensure you've node.js version >=4 installed. Then run the following :`
 
 ```sh
-$ npm install --global stafo
+$ npm install --global stafo-cli
 ```
 __`OR`__
 ```sh
-$ sudo npm install --global stafo
+$ sudo npm install --global stafo-cli
 ```
 
 ## Usage
