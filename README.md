@@ -2,7 +2,7 @@
 
 > CLI tool to count total stars and forks on a github repository.
 
-[![Build Status](https://travis-ci.org/CodeDotJS/stafo.svg?branch=master)](https://travis-ci.org/CodeDotJS/stafo)
+[![Build Status](https://travis-ci.org/CodeDotJS/stafo-cli.svg?branch=master)](https://travis-ci.org/CodeDotJS/stafo-cli)
 
 ## Install
 
