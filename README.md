@@ -1,6 +1,8 @@
-# stafo-cli
+# stafo-cli 
 
 > CLI tool to count total stars and forks on a github repository.
+
+[![Build Status](https://travis-ci.org/CodeDotJS/stafo.svg?branch=master)](https://travis-ci.org/CodeDotJS/stafo)
 
 ## Install
 
@@ -17,7 +19,7 @@ $ sudo npm install --global stafo
 ## Usage
 
 ```
-Usage : stafo <username/repository>
+Usage   : stafo <username/repository>
 
 Example : stafo CodeDotJS/kote   [user]
           stafo facebook/reactjs [organization]
