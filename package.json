@@ -1,6 +1,6 @@
 {
   "name": "stafo-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command line tool find total stars and forks across a github repository",
   "license": "MIT",
   "repository": {
