@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
+const dns = require('dns');
 const stafo = require('stafo');
 const chalk = require('chalk');
 const ora = require('ora');
@@ -14,6 +15,14 @@ const spinner = ora();
 
 const arg = process.argv[2];
 const pre = `${chalk.bold.cyan('›')} `;
+
+dns.lookup('github.com', err => {
+	if (err && err.code === 'ENOTFOUND') {
+		logUpdate();
+		console.log(`${chalk.bold.red('›')} ${chalk.dim('Please check your internet connection')}\n`);
+		process.exit(1);
+	}
+});
 
 if (!arg || arg === '-h') {
 	console.log(`
