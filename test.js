@@ -17,7 +17,7 @@ test.cb('stafo', t => {
 		cwd: __dirname
 	}, (err, stdout) => {
 		t.ifError(err);
-		t.true(stdout === '\u001b[?25l\n\u001b[?25l\u001b[1000D\u001b[K\u001b[1A\u001b[1000D\u001b[K\n›  Stars : 1\n›  Forks : 0\n\n\u001b[?25h');
+		t.true(stdout === '\u001b[?25l\n\u001b[?25l\u001b[1000D\u001b[K\u001b[1A\u001b[1000D\u001b[K\n›  Stars : 2\n›  Forks : 0\n\n\u001b[?25h');
 		t.end();
 	});
 });
